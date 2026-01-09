@@ -1,56 +1,91 @@
-# \# Chest X-ray Pneumonia Detection
+# 🩺 Chest X-ray Pneumonia Detection
 
-# 
+A deep learning project to detect **Pneumonia** from **Chest X-ray images** using **Convolutional Neural Networks (CNNs)**.
 
-# Deep Learning project to detect pneumonia from chest X-ray images using Convolutional Neural Networks (CNNs).
+---
 
-# 
+## 📌 Project Overview
 
-# \## Project Structure
+Pneumonia is a serious lung infection that can be life-threatening if not diagnosed early.  
+This project applies **CNN-based deep learning models** to automatically classify chest X-ray images into:
 
-# data/           # Dataset (ignored in git)
+- **NORMAL**
+- **PNEUMONIA**
 
-# notebooks/      # Experiments \& analysis
+The objective is to build a reliable image classification pipeline that can assist in early medical screening.
 
-# src/            # Training \& model code
+---
 
-# models/         # Saved models (ignored)
+## 📁 Project Structure
 
-# reports/        # Metrics \& plots
+```
+.
+├── data/           # Dataset (ignored in git)
+├── notebooks/      # Experiments, EDA, and analysis
+├── src/            # Model training and evaluation code
+├── models/         # Saved trained models (ignored)
+├── reports/        # Metrics, plots, and results
+└── README.md
+```
 
+---
 
+## 📊 Dataset
 
+The project uses the **Chest X-Ray Images (Pneumonia)** dataset, which contains labeled chest X-ray images.
 
+### Dataset Classes
+- **NORMAL**
+- **PNEUMONIA**
 
-\## Dataset
+> ⚠️ Dataset is not included in this repository due to size constraints.
 
-Chest X-ray images categorized into:
+---
 
-\- NORMAL
+## 📥 How to Download the Dataset
 
-\- PNEUMONIA
+### Option 1: Download from Kaggle (Recommended)
 
+1. Visit the dataset page:  
+   https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
+2. Click **Download**
 
-Dataset is not included in this repository due to size constraints.
+3. Extract the downloaded ZIP file
 
+4. Place the dataset inside the `data/` directory as follows:
 
+```
+data/
+└── chest_xray/
+    ├── train/
+    │   ├── NORMAL/
+    │   └── PNEUMONIA/
+    ├── test/
+    │   ├── NORMAL/
+    │   └── PNEUMONIA/
+    └── val/
+        ├── NORMAL/
+        └── PNEUMONIA/
+```
 
-\## Tech Stack
+---
 
-\- Python
+## 🛠️ Tech Stack
 
-\- TensorFlow / Keras
+- Python  
+- TensorFlow / Keras  
+- NumPy, Pandas  
+- Matplotlib, OpenCV  
 
-\- NumPy, Pandas
+---
 
-\- Matplotlib, OpenCV
+## 🚧 Project Status
 
+Work in progress 🚧  
 
+---
 
-\## Status
+## 📜 License
 
-🚧 Work in progress
-
-
-
+This project is for educational and research purposes.
