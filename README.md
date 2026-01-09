@@ -1,4 +1,4 @@
-# 🩺 Chest X-ray Pneumonia Detection
+# 🩺 Chest X-ray Pneumonia Detection 
 
 A deep learning project to detect **Pneumonia** from **Chest X-ray images** using **Convolutional Neural Networks (CNNs)**.
 
